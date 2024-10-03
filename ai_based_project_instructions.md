@@ -9,21 +9,22 @@ Fill this [instructions.md](./instructions.md) file:
    a. Utilize Claude or ChatGPT (GPT-4) to inquire about the most suitable tools and packages for the project's core use case.
    b. Analyze the AI's recommendations and select the most appropriate options for the project's requirements.
 2. Research and Add Package Documentation:
-   a. Identify the suggested tool/package for the project's core functionality.
-   b. Locate the official documentation for the chosen package.
-   c. Add the documentation to Cursor:
+   a. Add documentation of core framework (React, NextJS, Supabase, Tailwind, Stripe etc.) which you will be using in project.
+   b. Identify the suggested tool/package for the project's core functionality.
+   c. Locate the official documentation for the chosen package.
+   d. Add the documentation to Cursor:
       - Open Cursor Composer
       - Select @docs
       - Click "Add New Doc"
       - Paste the package documentation URL
-   d. Use the following prompt in Cursor to generate example code:
+   e. Use the following prompt in Cursor to generate example code:
       @<package_doc> help me build a simple typescript file for <custom functionality>
-   e. Copy the generated example code and paste it into the PRD documentation.
+   f. Copy the generated example code and paste it into the PRD documentation.
 
 ## Step 3 Initialize Project Repository and Install Dependencies
 1. Create a new Next.js project:
    ```
-   npx create-next-app@latest my-project
+   npx create-next-app@latest my-app --typescript --tailwind --eslint
    ```
 2. Navigate to the project directory:
    ```
@@ -35,7 +36,7 @@ Fill this [instructions.md](./instructions.md) file:
    ```
 4. Add necessary components:
    ```
-   npx shadcn-ui@latest add button
+   npx shadcn-ui@latest add button alert-dialog
    ```
    (Repeat this step for other required components)
 
@@ -90,7 +91,7 @@ Enhance UI with v0:
 3. Paste v0's enhanced frontend code back into Cursor
 
 ## Step 7: Deploy on Vercel
-<Will add more specific steps later, work in progress>
+<Will add more specific instructions later, work in progress>
 1. Create a Vercel account if you don't have one
 2. Connect your GitHub repository to Vercel
 3. Configure your project settings in Vercel dashboard
