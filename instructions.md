@@ -1,4 +1,5 @@
-Paste the following file in your project as instructions.md
+Use the following template to create your project's instructions.md file. Ensure you're viewing the Code version of raw Markdown content rather than the rendered preview.
+
 # Product Requirements Document (PRD)
 
 ## Project Overview
