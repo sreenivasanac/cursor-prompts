@@ -32,11 +32,11 @@ Fill this [instructions.md](./instructions.md) file:
    ```
 3. Install shadcn/ui:
    ```
-   npx shadcn-ui@latest init
+   npx shadcn@latest init
    ```
 4. Add necessary components:
    ```
-   npx shadcn-ui@latest add button alert-dialog
+   npx shadcn@latest add button alert-dialog
    ```
    (Repeat this step for other required components)
 
